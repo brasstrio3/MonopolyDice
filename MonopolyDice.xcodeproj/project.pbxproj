@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C369509920D97A1B00752B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369509820D97A1B00752B7B /* AppDelegate.swift */; };
+		C369509B20D97A1B00752B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369509A20D97A1B00752B7B /* ViewController.swift */; };
+		C369509E20D97A1B00752B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C369509C20D97A1B00752B7B /* Main.storyboard */; };
+		C36950A020D97A1C00752B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C369509F20D97A1C00752B7B /* Assets.xcassets */; };
+		C36950A320D97A1C00752B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36950A120D97A1C00752B7B /* LaunchScreen.storyboard */; };
+		C36950AE20D97A1C00752B7B /* MonopolyDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36950AD20D97A1C00752B7B /* MonopolyDiceTests.swift */; };
+		C36950B920D97A1C00752B7B /* MonopolyDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36950B820D97A1C00752B7B /* MonopolyDiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36950AA20D97A1C00752B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C369508D20D97A1B00752B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C369509420D97A1B00752B7B;
+			remoteInfo = MonopolyDice;
+		};
+		C36950B520D97A1C00752B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C369508D20D97A1B00752B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C369509420D97A1B00752B7B;
+			remoteInfo = MonopolyDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C369509520D97A1B00752B7B /* MonopolyDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonopolyDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C369509820D97A1B00752B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C369509A20D97A1B00752B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C369509D20D97A1B00752B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C369509F20D97A1C00752B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36950A220D97A1C00752B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36950A420D97A1C00752B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36950A920D97A1C00752B7B /* MonopolyDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopolyDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36950AD20D97A1C00752B7B /* MonopolyDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopolyDiceTests.swift; sourceTree = "<group>"; };
+		C36950AF20D97A1C00752B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36950B420D97A1C00752B7B /* MonopolyDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopolyDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36950B820D97A1C00752B7B /* MonopolyDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopolyDiceUITests.swift; sourceTree = "<group>"; };
+		C36950BA20D97A1C00752B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C369509220D97A1B00752B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950A620D97A1C00752B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950B120D97A1C00752B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C369508C20D97A1B00752B7B = {
+			isa = PBXGroup;
+			children = (
+				C369509720D97A1B00752B7B /* MonopolyDice */,
+				C36950AC20D97A1C00752B7B /* MonopolyDiceTests */,
+				C36950B720D97A1C00752B7B /* MonopolyDiceUITests */,
+				C369509620D97A1B00752B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C369509620D97A1B00752B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C369509520D97A1B00752B7B /* MonopolyDice.app */,
+				C36950A920D97A1C00752B7B /* MonopolyDiceTests.xctest */,
+				C36950B420D97A1C00752B7B /* MonopolyDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C369509720D97A1B00752B7B /* MonopolyDice */ = {
+			isa = PBXGroup;
+			children = (
+				C369509820D97A1B00752B7B /* AppDelegate.swift */,
+				C369509A20D97A1B00752B7B /* ViewController.swift */,
+				C369509C20D97A1B00752B7B /* Main.storyboard */,
+				C369509F20D97A1C00752B7B /* Assets.xcassets */,
+				C36950A120D97A1C00752B7B /* LaunchScreen.storyboard */,
+				C36950A420D97A1C00752B7B /* Info.plist */,
+			);
+			path = MonopolyDice;
+			sourceTree = "<group>";
+		};
+		C36950AC20D97A1C00752B7B /* MonopolyDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36950AD20D97A1C00752B7B /* MonopolyDiceTests.swift */,
+				C36950AF20D97A1C00752B7B /* Info.plist */,
+			);
+			path = MonopolyDiceTests;
+			sourceTree = "<group>";
+		};
+		C36950B720D97A1C00752B7B /* MonopolyDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36950B820D97A1C00752B7B /* MonopolyDiceUITests.swift */,
+				C36950BA20D97A1C00752B7B /* Info.plist */,
+			);
+			path = MonopolyDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C369509420D97A1B00752B7B /* MonopolyDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36950BD20D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDice" */;
+			buildPhases = (
+				C369509120D97A1B00752B7B /* Sources */,
+				C369509220D97A1B00752B7B /* Frameworks */,
+				C369509320D97A1B00752B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonopolyDice;
+			productName = MonopolyDice;
+			productReference = C369509520D97A1B00752B7B /* MonopolyDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36950A820D97A1C00752B7B /* MonopolyDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36950C020D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDiceTests" */;
+			buildPhases = (
+				C36950A520D97A1C00752B7B /* Sources */,
+				C36950A620D97A1C00752B7B /* Frameworks */,
+				C36950A720D97A1C00752B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36950AB20D97A1C00752B7B /* PBXTargetDependency */,
+			);
+			name = MonopolyDiceTests;
+			productName = MonopolyDiceTests;
+			productReference = C36950A920D97A1C00752B7B /* MonopolyDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36950B320D97A1C00752B7B /* MonopolyDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36950C320D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDiceUITests" */;
+			buildPhases = (
+				C36950B020D97A1C00752B7B /* Sources */,
+				C36950B120D97A1C00752B7B /* Frameworks */,
+				C36950B220D97A1C00752B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36950B620D97A1C00752B7B /* PBXTargetDependency */,
+			);
+			name = MonopolyDiceUITests;
+			productName = MonopolyDiceUITests;
+			productReference = C36950B420D97A1C00752B7B /* MonopolyDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C369508D20D97A1B00752B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C369509420D97A1B00752B7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C36950A820D97A1C00752B7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C369509420D97A1B00752B7B;
+					};
+					C36950B320D97A1C00752B7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C369509420D97A1B00752B7B;
+					};
+				};
+			};
+			buildConfigurationList = C369509020D97A1B00752B7B /* Build configuration list for PBXProject "MonopolyDice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C369508C20D97A1B00752B7B;
+			productRefGroup = C369509620D97A1B00752B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C369509420D97A1B00752B7B /* MonopolyDice */,
+				C36950A820D97A1C00752B7B /* MonopolyDiceTests */,
+				C36950B320D97A1C00752B7B /* MonopolyDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C369509320D97A1B00752B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36950A320D97A1C00752B7B /* LaunchScreen.storyboard in Resources */,
+				C36950A020D97A1C00752B7B /* Assets.xcassets in Resources */,
+				C369509E20D97A1B00752B7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950A720D97A1C00752B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950B220D97A1C00752B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C369509120D97A1B00752B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C369509B20D97A1B00752B7B /* ViewController.swift in Sources */,
+				C369509920D97A1B00752B7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950A520D97A1C00752B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36950AE20D97A1C00752B7B /* MonopolyDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36950B020D97A1C00752B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36950B920D97A1C00752B7B /* MonopolyDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36950AB20D97A1C00752B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C369509420D97A1B00752B7B /* MonopolyDice */;
+			targetProxy = C36950AA20D97A1C00752B7B /* PBXContainerItemProxy */;
+		};
+		C36950B620D97A1C00752B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C369509420D97A1B00752B7B /* MonopolyDice */;
+			targetProxy = C36950B520D97A1C00752B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C369509C20D97A1B00752B7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C369509D20D97A1B00752B7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36950A120D97A1C00752B7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36950A220D97A1C00752B7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36950BB20D97A1C00752B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36950BC20D97A1C00752B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36950BE20D97A1C00752B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36950BF20D97A1C00752B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36950C120D97A1C00752B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopolyDice.app/MonopolyDice";
+			};
+			name = Debug;
+		};
+		C36950C220D97A1C00752B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopolyDice.app/MonopolyDice";
+			};
+			name = Release;
+		};
+		C36950C420D97A1C00752B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonopolyDice;
+			};
+			name = Debug;
+		};
+		C36950C520D97A1C00752B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonopolyDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlundy.MonopolyDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonopolyDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C369509020D97A1B00752B7B /* Build configuration list for PBXProject "MonopolyDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36950BB20D97A1C00752B7B /* Debug */,
+				C36950BC20D97A1C00752B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36950BD20D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36950BE20D97A1C00752B7B /* Debug */,
+				C36950BF20D97A1C00752B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36950C020D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36950C120D97A1C00752B7B /* Debug */,
+				C36950C220D97A1C00752B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36950C320D97A1C00752B7B /* Build configuration list for PBXNativeTarget "MonopolyDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36950C420D97A1C00752B7B /* Debug */,
+				C36950C520D97A1C00752B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C369508D20D97A1B00752B7B /* Project object */;
+}
